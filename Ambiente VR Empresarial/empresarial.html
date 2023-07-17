@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ambiente VR</title>
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+  </head>
+  <body>    
+    <a-scene stats="false" vr-mode-ui="false">
+      <a-sky color="white" src="#parede"></a-sky>
+      <a-assets>
+        <img id="logo" src="https://cdn.glitch.global/9b7f2fb0-de03-45b1-bf5e-72516d227472/Logo.jpg?v=1687466701380"/>
+        <img id="parede" src="https://cdn.glitch.global/9b7f2fb0-de03-45b1-bf5e-72516d227472/fundo.jpg?v=1687496038915">       
+      <a-asset-item id="empresarial" src="https://cdn.glitch.global/9b7f2fb0-de03-45b1-bf5e-72516d227472/ambiente%20sala.gltf?v=1687606045195"></a-asset-item>
+      </a-assets>
+      <a-image src="#logo" position="3 1.2 -7.8" rotation="0 4 0" width="3" height="1"></a-image>
+      <a-gltf-model src="#empresarial" position="0 0 -7" rotation="0 -90 0" scale="1 1 1"></a-gltf-model>
+      <a-camera position="0 1.6 0"></a-camera>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="13" height="10" color="Gray" src="https://cdn.glitch.global/9b7f2fb0-de03-45b1-bf5e-72516d227472/5364112.jpg?v=1687503250302"></a-plane>
+      <a-entity camera look-controls wasd-controls="acceleration:100" position="0 1.6 0"></a-entity>
+      <a-cursor></a-cursor>
+   </a-scene>
+  </body>
+</html>
+<!-- https://ambiente-vr-inicial.glitch.me/ -->

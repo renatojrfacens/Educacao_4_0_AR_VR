@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ambiente Sala VR</title>
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+  </head>
+  <body>    
+    <a-scene stats="false" vr-mode-ui="false">
+      <a-sky color="white" src="#parede"></a-sky>
+      <a-assets>
+s        <img id="parede" src="https://cdn.glitch.global/9b7f2fb0-de03-45b1-bf5e-72516d227472/fundo.jpg?v=1687496038915">       
+      <a-asset-item id="faculdade" src="https://cdn.glitch.global/f830765b-d39d-49a3-95bf-1f4a2d728d2e/sala.gltf?v=1689492560032"></a-asset-item>
+      </a-assets>
+      <a-gltf-model src="#faculdade" position="0 0 -7" rotation="0 -90 0" scale="0.05 0.05 0.05"></a-gltf-model>
+      <a-camera position="0 3.2 0"></a-camera>
+      <a-entity camera look-controls wasd-controls="acceleration:100" position="0 1.6 0"></a-entity>
+      <a-cursor></a-cursor>
+   </a-scene>
+  </body>
+</html>
+<!-- https://faculdade-ambiente-vr.glitch.me -->
