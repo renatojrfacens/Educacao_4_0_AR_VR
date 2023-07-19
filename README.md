@@ -21,7 +21,7 @@ Além dessas ferramentas foi necessário usa o Visual Studio para a criação de
 
 As imagens em formato 3D foram retiradas de forma gratuita pelo site Sketchfab e pelo Tinkercad.
 
-Os ambientes VR foram criados utilizando inicialemente o Glitch que é um editor de código online que hospeda e implanta instantaneamente as alterações feitas. Com ele nós usamos html e javascript para criar a estrutura básica da aplicação, juntamente com o A-FRAME que é um web framework utilizado para buildar experiências de realidade virtual.
+Os ambientes VR foram criados utilizando inicialmente o Glitch que é um editor de código online que hospeda e implanta instantaneamente as alterações feitas. Com ele nós usamos html e javascript para criar a estrutura básica da aplicação, juntamente com o A-FRAME que é um web framework utilizado para buildar experiências de realidade virtual.
 
 Os elementos em 3D foram retirados do 3dwarehouse, e junta a ele foi utilizado o Blender que é um software de modelagem 3D.
 
